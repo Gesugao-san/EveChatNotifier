@@ -16,6 +16,11 @@ namespace EveChatNotifier
 
         public Settings()
         {
+            if (!String.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                System.Threading.Thread.CurrentThread.CurrentUICulture = System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
+                System.Threading.Thread.CurrentThread.CurrentCulture = System.Globalization.CultureInfo.GetCultureInfo(Properties.Settings.Default.Language);
+            };
             InitializeComponent();
 
             this.Text = string.Format("Settings - v{0}", Application.ProductVersion);
@@ -291,6 +296,29 @@ namespace EveChatNotifier
         private void LblAutostartDelay_MouseEnter(object sender, EventArgs e)
         {
             tbHelp.Text = string.Format("You can add an auto start delay in minutes here (e.g. reduce startup load, wait for network drive, cloud space, ...)");
+        }
+
+        private void Settings_Load(object sender, EventArgs e)
+        {
+            cbLang.DataSource = new System.Globalization.CultureInfo[]
+            {
+                System.Globalization.CultureInfo.GetCultureInfo("en-US"),
+                System.Globalization.CultureInfo.GetCultureInfo("ru-RU")
+            };
+
+            cbLang.DisplayMember = "NativeName";
+            cbLang.ValueMember = "Name";
+            
+            if (!String.IsNullOrEmpty(Properties.Settings.Default.Language))
+            {
+                cbLang.SelectedValue = Properties.Settings.Default.Language;
+            }
+        }
+
+        private void Settings_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Properties.Settings.Default.Language = cbLang.SelectedValue.ToString();
+            Properties.Settings.Default.Save();
         }
     }
 }

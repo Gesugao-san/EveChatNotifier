@@ -117,7 +117,1416 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pHint.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="tbHelp.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tbHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbHelp.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>449, 28</value>
+  </data>
+  <data name="tbHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tbHelp.Text" xml:space="preserve">
+    <value>Hover cursor on settings label to get more information about it.</value>
+  </data>
+  <data name="&gt;&gt;tbHelp.Name" xml:space="preserve">
+    <value>tbHelp</value>
+  </data>
+  <data name="&gt;&gt;tbHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelp.Parent" xml:space="preserve">
+    <value>pHint</value>
+  </data>
+  <data name="&gt;&gt;tbHelp.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pHint.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 423</value>
+  </data>
+  <data name="pHint.Size" type="System.Drawing.Size, System.Drawing">
+    <value>465, 51</value>
+  </data>
+  <data name="pHint.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pHint.Name" xml:space="preserve">
+    <value>pHint</value>
+  </data>
+  <data name="&gt;&gt;pHint.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pHint.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pHint.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="btnTest.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnTest.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="btnTest.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="btnTest.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnTest.Location" type="System.Drawing.Point, System.Drawing">
+    <value>481, 435</value>
+  </data>
+  <data name="btnTest.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 41</value>
+  </data>
+  <data name="btnTest.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnTest.Text" xml:space="preserve">
+    <value>Apply and test</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Name" xml:space="preserve">
+    <value>btnTest</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnTest.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnTest.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCancel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnCancel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>595, 435</value>
+  </data>
+  <data name="btnCancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 41</value>
+  </data>
+  <data name="btnCancel.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnCancel.Text" xml:space="preserve">
+    <value>Cancel and close</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Name" xml:space="preserve">
+    <value>btnCancel</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCancel.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnSave.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSave.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnSave.Location" type="System.Drawing.Point, System.Drawing">
+    <value>681, 435</value>
+  </data>
+  <data name="btnSave.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 41</value>
+  </data>
+  <data name="btnSave.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSave.Text" xml:space="preserve">
+    <value>Save and close</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Name" xml:space="preserve">
+    <value>btnSave</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnSave.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnSave.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbPaths.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="folderMoveLogs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="folderMoveLogs.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="folderMoveLogs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="folderMoveLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 69</value>
+  </data>
+  <data name="folderMoveLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>633, 22</value>
+  </data>
+  <data name="folderMoveLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;folderMoveLogs.Name" xml:space="preserve">
+    <value>folderMoveLogs</value>
+  </data>
+  <data name="&gt;&gt;folderMoveLogs.Type" xml:space="preserve">
+    <value>EveChatNotifier.HelperControls.FolderChooser, EveChatNotifier, Version=2.10.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;folderMoveLogs.Parent" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;folderMoveLogs.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="fileLog.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="fileLog.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="fileLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 42</value>
+  </data>
+  <data name="fileLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 22</value>
+  </data>
+  <data name="fileLog.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;fileLog.Name" xml:space="preserve">
+    <value>fileLog</value>
+  </data>
+  <data name="&gt;&gt;fileLog.Type" xml:space="preserve">
+    <value>EveChatNotifier.HelperControls.FileChooser, EveChatNotifier, Version=2.10.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;fileLog.Parent" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;fileLog.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="folderEveChatLogs.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="folderEveChatLogs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="folderEveChatLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 15</value>
+  </data>
+  <data name="folderEveChatLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 22</value>
+  </data>
+  <data name="folderEveChatLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;folderEveChatLogs.Name" xml:space="preserve">
+    <value>folderEveChatLogs</value>
+  </data>
+  <data name="&gt;&gt;folderEveChatLogs.Type" xml:space="preserve">
+    <value>EveChatNotifier.HelperControls.FolderChooser, EveChatNotifier, Version=2.10.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;folderEveChatLogs.Parent" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;folderEveChatLogs.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbMoveLog.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbMoveLog.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbMoveLog.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 72</value>
+  </data>
+  <data name="cbMoveLog.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>1, 1, 0, 4</value>
+  </data>
+  <data name="cbMoveLog.Size" type="System.Drawing.Size, System.Drawing">
+    <value>16, 19</value>
+  </data>
+  <data name="cbMoveLog.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;cbMoveLog.Name" xml:space="preserve">
+    <value>cbMoveLog</value>
+  </data>
+  <data name="&gt;&gt;cbMoveLog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbMoveLog.Parent" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;cbMoveLog.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblMoveLogs.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMoveLogs.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblMoveLogs.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMoveLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 70</value>
+  </data>
+  <data name="lblMoveLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 13</value>
+  </data>
+  <data name="lblMoveLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblMoveLogs.Text" xml:space="preserve">
+    <value>Move old logs</value>
+  </data>
+  <data name="&gt;&gt;lblMoveLogs.Name" xml:space="preserve">
+    <value>lblMoveLogs</value>
+  </data>
+  <data name="&gt;&gt;lblMoveLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMoveLogs.Parent" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;lblMoveLogs.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblLogPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLogPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblLogPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 45</value>
+  </data>
+  <data name="lblLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>87, 13</value>
+  </data>
+  <data name="lblLogPath.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblLogPath.Text" xml:space="preserve">
+    <value>Program log path</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.Name" xml:space="preserve">
+    <value>lblLogPath</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.Parent" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;lblLogPath.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblEveChatLogPath.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEveChatLogPath.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblEveChatLogPath.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblEveChatLogPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 20</value>
+  </data>
+  <data name="lblEveChatLogPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>96, 13</value>
+  </data>
+  <data name="lblEveChatLogPath.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblEveChatLogPath.Text" xml:space="preserve">
+    <value>EVE Chatlogs path</value>
+  </data>
+  <data name="&gt;&gt;lblEveChatLogPath.Name" xml:space="preserve">
+    <value>lblEveChatLogPath</value>
+  </data>
+  <data name="&gt;&gt;lblEveChatLogPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEveChatLogPath.Parent" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;lblEveChatLogPath.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="gbPaths.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gbPaths.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 5</value>
+  </data>
+  <data name="gbPaths.Size" type="System.Drawing.Size, System.Drawing">
+    <value>765, 100</value>
+  </data>
+  <data name="gbPaths.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="gbPaths.Text" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="&gt;&gt;gbPaths.Name" xml:space="preserve">
+    <value>gbPaths</value>
+  </data>
+  <data name="&gt;&gt;gbPaths.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbPaths.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbPaths.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gbNotification.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblVolume.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblVolume.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>264, 20</value>
+  </data>
+  <data name="lblVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lblVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblVolume.Text" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.Name" xml:space="preserve">
+    <value>lblVolume</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;lblVolume.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbarVolume.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbarVolume.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbarVolume.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tbarVolume.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="tbarVolume.Location" type="System.Drawing.Point, System.Drawing">
+    <value>325, 15</value>
+  </data>
+  <data name="tbarVolume.Size" type="System.Drawing.Size, System.Drawing">
+    <value>430, 25</value>
+  </data>
+  <data name="tbarVolume.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbarVolume.Name" xml:space="preserve">
+    <value>tbarVolume</value>
+  </data>
+  <data name="&gt;&gt;tbarVolume.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TrackBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbarVolume.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;tbarVolume.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbNotifyKeywords.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbNotifyKeywords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 74</value>
+  </data>
+  <data name="tbNotifyKeywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 20</value>
+  </data>
+  <data name="tbNotifyKeywords.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbNotifyKeywords.Name" xml:space="preserve">
+    <value>tbNotifyKeywords</value>
+  </data>
+  <data name="&gt;&gt;tbNotifyKeywords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbNotifyKeywords.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;tbNotifyKeywords.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSoundFile.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSoundFile.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblSoundFile.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSoundFile.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 49</value>
+  </data>
+  <data name="lblSoundFile.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="lblSoundFile.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSoundFile.Text" xml:space="preserve">
+    <value>Sound file path</value>
+  </data>
+  <data name="&gt;&gt;lblSoundFile.Name" xml:space="preserve">
+    <value>lblSoundFile</value>
+  </data>
+  <data name="&gt;&gt;lblSoundFile.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSoundFile.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;lblSoundFile.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblNotifyKeywords.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNotifyKeywords.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblNotifyKeywords.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNotifyKeywords.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 77</value>
+  </data>
+  <data name="lblNotifyKeywords.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="lblNotifyKeywords.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblNotifyKeywords.Text" xml:space="preserve">
+    <value>Notify keywords</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyKeywords.Name" xml:space="preserve">
+    <value>lblNotifyKeywords</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyKeywords.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyKeywords.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyKeywords.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="fileNotifySound.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="fileNotifySound.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="fileNotifySound.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="fileNotifySound.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 46</value>
+  </data>
+  <data name="fileNotifySound.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 22</value>
+  </data>
+  <data name="fileNotifySound.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;fileNotifySound.Name" xml:space="preserve">
+    <value>fileNotifySound</value>
+  </data>
+  <data name="&gt;&gt;fileNotifySound.Type" xml:space="preserve">
+    <value>EveChatNotifier.HelperControls.FileChooser, EveChatNotifier, Version=2.10.2.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;fileNotifySound.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;fileNotifySound.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblNotifyOption.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNotifyOption.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblNotifyOption.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNotifyOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 20</value>
+  </data>
+  <data name="lblNotifyOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 13</value>
+  </data>
+  <data name="lblNotifyOption.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNotifyOption.Text" xml:space="preserve">
+    <value>Notify Mode</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyOption.Name" xml:space="preserve">
+    <value>lblNotifyOption</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyOption.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;lblNotifyOption.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbNotify.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbNotify.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cbNotify.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 15</value>
+  </data>
+  <data name="cbNotify.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 21</value>
+  </data>
+  <data name="cbNotify.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbNotify.Name" xml:space="preserve">
+    <value>cbNotify</value>
+  </data>
+  <data name="&gt;&gt;cbNotify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbNotify.Parent" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;cbNotify.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="gbNotification.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gbNotification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 110</value>
+  </data>
+  <data name="gbNotification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>765, 105</value>
+  </data>
+  <data name="gbNotification.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="gbNotification.Text" xml:space="preserve">
+    <value>Notification</value>
+  </data>
+  <data name="&gt;&gt;gbNotification.Name" xml:space="preserve">
+    <value>gbNotification</value>
+  </data>
+  <data name="&gt;&gt;gbNotification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbNotification.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbNotification.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cbLang.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cbLang.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="cbLang.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 87</value>
+  </data>
+  <data name="cbLang.Size" type="System.Drawing.Size, System.Drawing">
+    <value>294, 21</value>
+  </data>
+  <data name="cbLang.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cbLang.Name" xml:space="preserve">
+    <value>cbLang</value>
+  </data>
+  <data name="&gt;&gt;cbLang.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbLang.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;cbLang.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblLangSelect.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLangSelect.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblLangSelect.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLangSelect.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 95</value>
+  </data>
+  <data name="lblLangSelect.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 13</value>
+  </data>
+  <data name="lblLangSelect.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblLangSelect.Text" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="&gt;&gt;lblLangSelect.Name" xml:space="preserve">
+    <value>lblLangSelect</value>
+  </data>
+  <data name="&gt;&gt;lblLangSelect.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLangSelect.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;lblLangSelect.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="nudAutoStartDelay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="nudAutoStartDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 42</value>
+  </data>
+  <data name="nudAutoStartDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="nudAutoStartDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;nudAutoStartDelay.Name" xml:space="preserve">
+    <value>nudAutoStartDelay</value>
+  </data>
+  <data name="&gt;&gt;nudAutoStartDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudAutoStartDelay.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;nudAutoStartDelay.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblAutostartDelay.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAutostartDelay.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblAutostartDelay.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAutostartDelay.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 45</value>
+  </data>
+  <data name="lblAutostartDelay.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 13</value>
+  </data>
+  <data name="lblAutostartDelay.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblAutostartDelay.Text" xml:space="preserve">
+    <value>Autostart delay (minutes)</value>
+  </data>
+  <data name="&gt;&gt;lblAutostartDelay.Name" xml:space="preserve">
+    <value>lblAutostartDelay</value>
+  </data>
+  <data name="&gt;&gt;lblAutostartDelay.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutostartDelay.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;lblAutostartDelay.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="nudFontSizeTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="nudFontSizeTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 13</value>
+  </data>
+  <data name="nudFontSizeTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="nudFontSizeTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeTitle.Name" xml:space="preserve">
+    <value>nudFontSizeTitle</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeTitle.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeTitle.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 17</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Font size (title)</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cbAutoStart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbAutoStart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbAutoStart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 18</value>
+  </data>
+  <data name="cbAutoStart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="cbAutoStart.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cbAutoStart.Name" xml:space="preserve">
+    <value>cbAutoStart</value>
+  </data>
+  <data name="&gt;&gt;cbAutoStart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbAutoStart.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;cbAutoStart.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="nudFontSizeContent.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="nudFontSizeContent.Location" type="System.Drawing.Point, System.Drawing">
+    <value>386, 39</value>
+  </data>
+  <data name="nudFontSizeContent.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 20</value>
+  </data>
+  <data name="nudFontSizeContent.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeContent.Name" xml:space="preserve">
+    <value>nudFontSizeContent</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeContent.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NumericUpDown, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeContent.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;nudFontSizeContent.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblAutostart.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAutostart.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblAutostart.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAutostart.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 20</value>
+  </data>
+  <data name="lblAutostart.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="lblAutostart.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblAutostart.Text" xml:space="preserve">
+    <value>Autostart enabled</value>
+  </data>
+  <data name="&gt;&gt;lblAutostart.Name" xml:space="preserve">
+    <value>lblAutostart</value>
+  </data>
+  <data name="&gt;&gt;lblAutostart.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutostart.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;lblAutostart.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 42</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Font size (message)</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cbUpdates.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbUpdates.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbUpdates.Location" type="System.Drawing.Point, System.Drawing">
+    <value>136, 68</value>
+  </data>
+  <data name="cbUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="cbUpdates.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cbUpdates.Name" xml:space="preserve">
+    <value>cbUpdates</value>
+  </data>
+  <data name="&gt;&gt;cbUpdates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbUpdates.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;cbUpdates.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblUpdateCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUpdateCheck.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblUpdateCheck.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUpdateCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 69</value>
+  </data>
+  <data name="lblUpdateCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 13</value>
+  </data>
+  <data name="lblUpdateCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblUpdateCheck.Text" xml:space="preserve">
+    <value>Check for updates</value>
+  </data>
+  <data name="&gt;&gt;lblUpdateCheck.Name" xml:space="preserve">
+    <value>lblUpdateCheck</value>
+  </data>
+  <data name="&gt;&gt;lblUpdateCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUpdateCheck.Parent" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;lblUpdateCheck.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="gbProgramSettings.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gbProgramSettings.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 297</value>
+  </data>
+  <data name="gbProgramSettings.Size" type="System.Drawing.Size, System.Drawing">
+    <value>440, 120</value>
+  </data>
+  <data name="gbProgramSettings.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="gbProgramSettings.Text" xml:space="preserve">
+    <value>Program Settings</value>
+  </data>
+  <data name="&gt;&gt;gbProgramSettings.Name" xml:space="preserve">
+    <value>gbProgramSettings</value>
+  </data>
+  <data name="&gt;&gt;gbProgramSettings.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbProgramSettings.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbProgramSettings.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbMotdUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 42</value>
+  </data>
+  <data name="tbMotdUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 20</value>
+  </data>
+  <data name="tbMotdUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;tbMotdUsername.Name" xml:space="preserve">
+    <value>tbMotdUsername</value>
+  </data>
+  <data name="&gt;&gt;tbMotdUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbMotdUsername.Parent" xml:space="preserve">
+    <value>gbWorkTweaks</value>
+  </data>
+  <data name="&gt;&gt;tbMotdUsername.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblMotdUsername.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMotdUsername.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblMotdUsername.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMotdUsername.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 45</value>
+  </data>
+  <data name="lblMotdUsername.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="lblMotdUsername.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblMotdUsername.Text" xml:space="preserve">
+    <value>MOTD Username</value>
+  </data>
+  <data name="&gt;&gt;lblMotdUsername.Name" xml:space="preserve">
+    <value>lblMotdUsername</value>
+  </data>
+  <data name="&gt;&gt;lblMotdUsername.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMotdUsername.Parent" xml:space="preserve">
+    <value>gbWorkTweaks</value>
+  </data>
+  <data name="&gt;&gt;lblMotdUsername.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="cbIgnoreOwn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbIgnoreOwn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbIgnoreOwn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 22</value>
+  </data>
+  <data name="cbIgnoreOwn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="cbIgnoreOwn.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreOwn.Name" xml:space="preserve">
+    <value>cbIgnoreOwn</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreOwn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreOwn.Parent" xml:space="preserve">
+    <value>gbWorkTweaks</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreOwn.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblIgnoreOwn.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIgnoreOwn.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblIgnoreOwn.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIgnoreOwn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 20</value>
+  </data>
+  <data name="lblIgnoreOwn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 13</value>
+  </data>
+  <data name="lblIgnoreOwn.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblIgnoreOwn.Text" xml:space="preserve">
+    <value>Ignore own messages</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreOwn.Name" xml:space="preserve">
+    <value>lblIgnoreOwn</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreOwn.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreOwn.Parent" xml:space="preserve">
+    <value>gbWorkTweaks</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreOwn.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cbIgnoreMotd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="cbIgnoreMotd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cbIgnoreMotd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>122, 70</value>
+  </data>
+  <data name="cbIgnoreMotd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>15, 14</value>
+  </data>
+  <data name="cbIgnoreMotd.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreMotd.Name" xml:space="preserve">
+    <value>cbIgnoreMotd</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreMotd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreMotd.Parent" xml:space="preserve">
+    <value>gbWorkTweaks</value>
+  </data>
+  <data name="&gt;&gt;cbIgnoreMotd.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblIgnoreMotd.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIgnoreMotd.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblIgnoreMotd.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIgnoreMotd.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 68</value>
+  </data>
+  <data name="lblIgnoreMotd.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 13</value>
+  </data>
+  <data name="lblIgnoreMotd.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblIgnoreMotd.Text" xml:space="preserve">
+    <value>Ignore MOTD</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreMotd.Name" xml:space="preserve">
+    <value>lblIgnoreMotd</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreMotd.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreMotd.Parent" xml:space="preserve">
+    <value>gbWorkTweaks</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreMotd.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="gbIgnorelist.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbIgnoreChannels.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbIgnoreChannels.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tbIgnoreChannels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 42</value>
+  </data>
+  <data name="tbIgnoreChannels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 20</value>
+  </data>
+  <data name="tbIgnoreChannels.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbIgnoreChannels.Name" xml:space="preserve">
+    <value>tbIgnoreChannels</value>
+  </data>
+  <data name="&gt;&gt;tbIgnoreChannels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIgnoreChannels.Parent" xml:space="preserve">
+    <value>gbIgnorelist</value>
+  </data>
+  <data name="&gt;&gt;tbIgnoreChannels.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tbIgnorePilots.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="tbIgnorePilots.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="tbIgnorePilots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 16</value>
+  </data>
+  <data name="tbIgnorePilots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>655, 20</value>
+  </data>
+  <data name="tbIgnorePilots.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbIgnorePilots.Name" xml:space="preserve">
+    <value>tbIgnorePilots</value>
+  </data>
+  <data name="&gt;&gt;tbIgnorePilots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIgnorePilots.Parent" xml:space="preserve">
+    <value>gbIgnorelist</value>
+  </data>
+  <data name="&gt;&gt;tbIgnorePilots.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblIgnoreChannels.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIgnoreChannels.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblIgnoreChannels.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIgnoreChannels.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 45</value>
+  </data>
+  <data name="lblIgnoreChannels.Size" type="System.Drawing.Size, System.Drawing">
+    <value>80, 13</value>
+  </data>
+  <data name="lblIgnoreChannels.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblIgnoreChannels.Text" xml:space="preserve">
+    <value>Channelnames:</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreChannels.Name" xml:space="preserve">
+    <value>lblIgnoreChannels</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreChannels.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreChannels.Parent" xml:space="preserve">
+    <value>gbIgnorelist</value>
+  </data>
+  <data name="&gt;&gt;lblIgnoreChannels.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblIgnorePilots.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblIgnorePilots.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt</value>
+  </data>
+  <data name="lblIgnorePilots.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIgnorePilots.Location" type="System.Drawing.Point, System.Drawing">
+    <value>5, 19</value>
+  </data>
+  <data name="lblIgnorePilots.Size" type="System.Drawing.Size, System.Drawing">
+    <value>61, 13</value>
+  </data>
+  <data name="lblIgnorePilots.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblIgnorePilots.Text" xml:space="preserve">
+    <value>Pilotnames:</value>
+  </data>
+  <data name="&gt;&gt;lblIgnorePilots.Name" xml:space="preserve">
+    <value>lblIgnorePilots</value>
+  </data>
+  <data name="&gt;&gt;lblIgnorePilots.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblIgnorePilots.Parent" xml:space="preserve">
+    <value>gbIgnorelist</value>
+  </data>
+  <data name="&gt;&gt;lblIgnorePilots.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gbIgnorelist.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gbIgnorelist.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 221</value>
+  </data>
+  <data name="gbIgnorelist.Size" type="System.Drawing.Size, System.Drawing">
+    <value>765, 70</value>
+  </data>
+  <data name="gbIgnorelist.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="gbIgnorelist.Text" xml:space="preserve">
+    <value>Ignorelist</value>
+  </data>
+  <data name="&gt;&gt;gbIgnorelist.Name" xml:space="preserve">
+    <value>gbIgnorelist</value>
+  </data>
+  <data name="&gt;&gt;gbIgnorelist.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbIgnorelist.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbIgnorelist.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="gbWorkTweaks.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="gbWorkTweaks.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="gbWorkTweaks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 297</value>
+  </data>
+  <data name="gbWorkTweaks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>313, 90</value>
+  </data>
+  <data name="gbWorkTweaks.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="gbWorkTweaks.Text" xml:space="preserve">
+    <value>Work Tweaks</value>
+  </data>
+  <data name="&gt;&gt;gbWorkTweaks.Name" xml:space="preserve">
+    <value>gbWorkTweaks</value>
+  </data>
+  <data name="&gt;&gt;gbWorkTweaks.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gbWorkTweaks.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gbWorkTweaks.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 486</value>
+  </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAMDAAAAEAIACoJQAAFgAAACgAAAAwAAAAYAAAAAEAIAAAAAAAACQAAMMUAADDFAAAAAAAAAAA
@@ -283,5 +1692,17 @@
         AAAD/wAA/wAAAAf/AAD/gAAAD/8AAP/AAAAf/wAA/+AAAD//AAD/+AAA//8AAP/+AAP//wAA///AH///
         AAA=
 </value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

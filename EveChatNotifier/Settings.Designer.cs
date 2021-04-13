@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnTest = new System.Windows.Forms.Button();
+            this.pHint = new System.Windows.Forms.Panel();
             this.tbHelp = new System.Windows.Forms.TextBox();
+            this.btnTest = new System.Windows.Forms.Button();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnSave = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.gbPaths = new System.Windows.Forms.GroupBox();
             this.folderMoveLogs = new EveChatNotifier.HelperControls.FolderChooser();
             this.fileLog = new EveChatNotifier.HelperControls.FileChooser();
             this.folderEveChatLogs = new EveChatNotifier.HelperControls.FolderChooser();
@@ -42,7 +42,7 @@
             this.lblMoveLogs = new System.Windows.Forms.Label();
             this.lblLogPath = new System.Windows.Forms.Label();
             this.lblEveChatLogPath = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.gbNotification = new System.Windows.Forms.GroupBox();
             this.lblVolume = new System.Windows.Forms.Label();
             this.tbarVolume = new System.Windows.Forms.TrackBar();
             this.tbNotifyKeywords = new System.Windows.Forms.TextBox();
@@ -51,471 +51,258 @@
             this.fileNotifySound = new EveChatNotifier.HelperControls.FileChooser();
             this.lblNotifyOption = new System.Windows.Forms.Label();
             this.cbNotify = new System.Windows.Forms.ComboBox();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.gbProgramSettings = new System.Windows.Forms.GroupBox();
+            this.cbLang = new System.Windows.Forms.ComboBox();
+            this.lblLangSelect = new System.Windows.Forms.Label();
             this.nudAutoStartDelay = new System.Windows.Forms.NumericUpDown();
             this.lblAutostartDelay = new System.Windows.Forms.Label();
+            this.nudFontSizeTitle = new System.Windows.Forms.NumericUpDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.cbAutoStart = new System.Windows.Forms.CheckBox();
+            this.nudFontSizeContent = new System.Windows.Forms.NumericUpDown();
+            this.lblAutostart = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.cbUpdates = new System.Windows.Forms.CheckBox();
+            this.lblUpdateCheck = new System.Windows.Forms.Label();
             this.tbMotdUsername = new System.Windows.Forms.TextBox();
             this.lblMotdUsername = new System.Windows.Forms.Label();
             this.cbIgnoreOwn = new System.Windows.Forms.CheckBox();
             this.lblIgnoreOwn = new System.Windows.Forms.Label();
             this.cbIgnoreMotd = new System.Windows.Forms.CheckBox();
             this.lblIgnoreMotd = new System.Windows.Forms.Label();
-            this.nudFontSizeContent = new System.Windows.Forms.NumericUpDown();
-            this.label2 = new System.Windows.Forms.Label();
-            this.nudFontSizeTitle = new System.Windows.Forms.NumericUpDown();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbAutoStart = new System.Windows.Forms.CheckBox();
-            this.lblAutostart = new System.Windows.Forms.Label();
-            this.cbUpdates = new System.Windows.Forms.CheckBox();
-            this.lblUpdateCheck = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.gbIgnorelist = new System.Windows.Forms.GroupBox();
             this.tbIgnoreChannels = new System.Windows.Forms.TextBox();
             this.tbIgnorePilots = new System.Windows.Forms.TextBox();
             this.lblIgnoreChannels = new System.Windows.Forms.Label();
             this.lblIgnorePilots = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.gbWorkTweaks = new System.Windows.Forms.GroupBox();
+            this.pHint.SuspendLayout();
+            this.gbPaths.SuspendLayout();
+            this.gbNotification.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbarVolume)).BeginInit();
-            this.groupBox3.SuspendLayout();
+            this.gbProgramSettings.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoStartDelay)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudFontSizeContent)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudFontSizeTitle)).BeginInit();
-            this.groupBox4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudFontSizeContent)).BeginInit();
+            this.gbIgnorelist.SuspendLayout();
+            this.gbWorkTweaks.SuspendLayout();
             this.SuspendLayout();
             // 
-            // panel1
+            // pHint
             // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
-            this.panel1.Controls.Add(this.btnTest);
-            this.panel1.Controls.Add(this.tbHelp);
-            this.panel1.Controls.Add(this.btnCancel);
-            this.panel1.Controls.Add(this.btnSave);
-            this.panel1.Location = new System.Drawing.Point(-52, 424);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(962, 121);
-            this.panel1.TabIndex = 0;
-            // 
-            // btnTest
-            // 
-            this.btnTest.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnTest.Enabled = false;
-            this.btnTest.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTest.Location = new System.Drawing.Point(657, 12);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(91, 23);
-            this.btnTest.TabIndex = 1;
-            this.btnTest.Text = "Apply and test";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTestVolume_Click);
+            resources.ApplyResources(this.pHint, "pHint");
+            this.pHint.BackColor = System.Drawing.SystemColors.Control;
+            this.pHint.Controls.Add(this.tbHelp);
+            this.pHint.Name = "pHint";
             // 
             // tbHelp
             // 
-            this.tbHelp.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.tbHelp, "tbHelp");
             this.tbHelp.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.tbHelp.Location = new System.Drawing.Point(56, 3);
-            this.tbHelp.Multiline = true;
             this.tbHelp.Name = "tbHelp";
             this.tbHelp.ReadOnly = true;
-            this.tbHelp.Size = new System.Drawing.Size(595, 41);
-            this.tbHelp.TabIndex = 0;
-            this.tbHelp.Text = "Hover a settings text to get more information about it.";
+            // 
+            // btnTest
+            // 
+            resources.ApplyResources(this.btnTest, "btnTest");
+            this.btnTest.Name = "btnTest";
+            this.btnTest.UseVisualStyleBackColor = true;
+            this.btnTest.Click += new System.EventHandler(this.btnTestVolume_Click);
             // 
             // btnCancel
             // 
-            this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.btnCancel, "btnCancel");
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(754, 12);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
-            this.btnCancel.TabIndex = 2;
-            this.btnCancel.Text = "Cancel";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnSave
             // 
-            this.btnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnSave.Location = new System.Drawing.Point(835, 12);
+            resources.ApplyResources(this.btnSave, "btnSave");
             this.btnSave.Name = "btnSave";
-            this.btnSave.Size = new System.Drawing.Size(75, 23);
-            this.btnSave.TabIndex = 3;
-            this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
-            // groupBox1
+            // gbPaths
             // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.folderMoveLogs);
-            this.groupBox1.Controls.Add(this.fileLog);
-            this.groupBox1.Controls.Add(this.folderEveChatLogs);
-            this.groupBox1.Controls.Add(this.cbMoveLog);
-            this.groupBox1.Controls.Add(this.lblMoveLogs);
-            this.groupBox1.Controls.Add(this.lblLogPath);
-            this.groupBox1.Controls.Add(this.lblEveChatLogPath);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(846, 110);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "move destination";
+            resources.ApplyResources(this.gbPaths, "gbPaths");
+            this.gbPaths.Controls.Add(this.folderMoveLogs);
+            this.gbPaths.Controls.Add(this.fileLog);
+            this.gbPaths.Controls.Add(this.folderEveChatLogs);
+            this.gbPaths.Controls.Add(this.cbMoveLog);
+            this.gbPaths.Controls.Add(this.lblMoveLogs);
+            this.gbPaths.Controls.Add(this.lblLogPath);
+            this.gbPaths.Controls.Add(this.lblEveChatLogPath);
+            this.gbPaths.Name = "gbPaths";
+            this.gbPaths.TabStop = false;
             // 
             // folderMoveLogs
             // 
-            this.folderMoveLogs.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.folderMoveLogs.Enabled = false;
-            this.folderMoveLogs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.folderMoveLogs.Location = new System.Drawing.Point(125, 75);
+            resources.ApplyResources(this.folderMoveLogs, "folderMoveLogs");
             this.folderMoveLogs.Name = "folderMoveLogs";
             this.folderMoveLogs.SelectedFolder = "";
-            this.folderMoveLogs.Size = new System.Drawing.Size(715, 22);
-            this.folderMoveLogs.TabIndex = 6;
             // 
             // fileLog
             // 
-            this.fileLog.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.fileLog, "fileLog");
             this.fileLog.BackColor = System.Drawing.SystemColors.Window;
-            this.fileLog.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fileLog.Location = new System.Drawing.Point(104, 47);
             this.fileLog.Name = "fileLog";
             this.fileLog.SelectedFile = "";
-            this.fileLog.Size = new System.Drawing.Size(736, 22);
-            this.fileLog.TabIndex = 3;
             // 
             // folderEveChatLogs
             // 
-            this.folderEveChatLogs.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.folderEveChatLogs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.folderEveChatLogs.Location = new System.Drawing.Point(104, 19);
+            resources.ApplyResources(this.folderEveChatLogs, "folderEveChatLogs");
             this.folderEveChatLogs.Name = "folderEveChatLogs";
             this.folderEveChatLogs.SelectedFolder = "";
-            this.folderEveChatLogs.Size = new System.Drawing.Size(736, 22);
-            this.folderEveChatLogs.TabIndex = 1;
             // 
             // cbMoveLog
             // 
-            this.cbMoveLog.AutoSize = true;
-            this.cbMoveLog.Location = new System.Drawing.Point(104, 79);
+            resources.ApplyResources(this.cbMoveLog, "cbMoveLog");
             this.cbMoveLog.Name = "cbMoveLog";
-            this.cbMoveLog.Size = new System.Drawing.Size(15, 14);
-            this.cbMoveLog.TabIndex = 5;
             this.cbMoveLog.UseVisualStyleBackColor = true;
             this.cbMoveLog.CheckedChanged += new System.EventHandler(this.cbMoveLog_CheckedChanged);
             // 
             // lblMoveLogs
             // 
-            this.lblMoveLogs.AutoSize = true;
+            resources.ApplyResources(this.lblMoveLogs, "lblMoveLogs");
             this.lblMoveLogs.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblMoveLogs.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMoveLogs.Location = new System.Drawing.Point(6, 78);
             this.lblMoveLogs.Name = "lblMoveLogs";
-            this.lblMoveLogs.Size = new System.Drawing.Size(72, 13);
-            this.lblMoveLogs.TabIndex = 4;
-            this.lblMoveLogs.Text = "move old logs";
             this.lblMoveLogs.MouseEnter += new System.EventHandler(this.lblMoveLogs_MouseEnter);
             // 
             // lblLogPath
             // 
-            this.lblLogPath.AutoSize = true;
+            resources.ApplyResources(this.lblLogPath, "lblLogPath");
             this.lblLogPath.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblLogPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLogPath.Location = new System.Drawing.Point(6, 50);
             this.lblLogPath.Name = "lblLogPath";
-            this.lblLogPath.Size = new System.Drawing.Size(86, 13);
-            this.lblLogPath.TabIndex = 2;
-            this.lblLogPath.Text = "program log path";
             this.lblLogPath.MouseEnter += new System.EventHandler(this.lblLogFile_MouseEnter);
             // 
             // lblEveChatLogPath
             // 
-            this.lblEveChatLogPath.AutoSize = true;
+            resources.ApplyResources(this.lblEveChatLogPath, "lblEveChatLogPath");
             this.lblEveChatLogPath.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblEveChatLogPath.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblEveChatLogPath.Location = new System.Drawing.Point(6, 22);
             this.lblEveChatLogPath.Name = "lblEveChatLogPath";
-            this.lblEveChatLogPath.Size = new System.Drawing.Size(92, 13);
-            this.lblEveChatLogPath.TabIndex = 0;
-            this.lblEveChatLogPath.Text = "eve chatlogs path";
             this.lblEveChatLogPath.MouseEnter += new System.EventHandler(this.lblEveChatLogs_MouseEnter);
             // 
-            // groupBox2
+            // gbNotification
             // 
-            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox2.Controls.Add(this.lblVolume);
-            this.groupBox2.Controls.Add(this.tbarVolume);
-            this.groupBox2.Controls.Add(this.tbNotifyKeywords);
-            this.groupBox2.Controls.Add(this.lblSoundFile);
-            this.groupBox2.Controls.Add(this.lblNotifyKeywords);
-            this.groupBox2.Controls.Add(this.fileNotifySound);
-            this.groupBox2.Controls.Add(this.lblNotifyOption);
-            this.groupBox2.Controls.Add(this.cbNotify);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox2.Location = new System.Drawing.Point(12, 128);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(846, 138);
-            this.groupBox2.TabIndex = 1;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "notification";
+            resources.ApplyResources(this.gbNotification, "gbNotification");
+            this.gbNotification.Controls.Add(this.lblVolume);
+            this.gbNotification.Controls.Add(this.tbarVolume);
+            this.gbNotification.Controls.Add(this.tbNotifyKeywords);
+            this.gbNotification.Controls.Add(this.lblSoundFile);
+            this.gbNotification.Controls.Add(this.lblNotifyKeywords);
+            this.gbNotification.Controls.Add(this.fileNotifySound);
+            this.gbNotification.Controls.Add(this.lblNotifyOption);
+            this.gbNotification.Controls.Add(this.cbNotify);
+            this.gbNotification.Name = "gbNotification";
+            this.gbNotification.TabStop = false;
             // 
             // lblVolume
             // 
-            this.lblVolume.AutoSize = true;
-            this.lblVolume.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVolume.Location = new System.Drawing.Point(6, 79);
+            resources.ApplyResources(this.lblVolume, "lblVolume");
             this.lblVolume.Name = "lblVolume";
-            this.lblVolume.Size = new System.Drawing.Size(41, 13);
-            this.lblVolume.TabIndex = 4;
-            this.lblVolume.Text = "volume";
             this.lblVolume.MouseEnter += new System.EventHandler(this.lblVolume_MouseEnter);
             // 
             // tbarVolume
             // 
-            this.tbarVolume.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbarVolume.AutoSize = false;
-            this.tbarVolume.Enabled = false;
-            this.tbarVolume.Location = new System.Drawing.Point(105, 74);
+            resources.ApplyResources(this.tbarVolume, "tbarVolume");
             this.tbarVolume.Maximum = 100;
             this.tbarVolume.Name = "tbarVolume";
-            this.tbarVolume.Size = new System.Drawing.Size(735, 25);
-            this.tbarVolume.TabIndex = 5;
             this.tbarVolume.TickFrequency = 10;
             this.tbarVolume.Value = 100;
             // 
             // tbNotifyKeywords
             // 
-            this.tbNotifyKeywords.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbNotifyKeywords.Location = new System.Drawing.Point(105, 105);
+            resources.ApplyResources(this.tbNotifyKeywords, "tbNotifyKeywords");
             this.tbNotifyKeywords.Name = "tbNotifyKeywords";
-            this.tbNotifyKeywords.Size = new System.Drawing.Size(735, 20);
-            this.tbNotifyKeywords.TabIndex = 7;
             // 
             // lblSoundFile
             // 
-            this.lblSoundFile.AutoSize = true;
+            resources.ApplyResources(this.lblSoundFile, "lblSoundFile");
             this.lblSoundFile.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblSoundFile.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSoundFile.Location = new System.Drawing.Point(6, 49);
             this.lblSoundFile.Name = "lblSoundFile";
-            this.lblSoundFile.Size = new System.Drawing.Size(86, 13);
-            this.lblSoundFile.TabIndex = 2;
-            this.lblSoundFile.Text = "sound file to play";
             this.lblSoundFile.MouseEnter += new System.EventHandler(this.lblSoundFile_MouseEnter);
             // 
             // lblNotifyKeywords
             // 
-            this.lblNotifyKeywords.AutoSize = true;
+            resources.ApplyResources(this.lblNotifyKeywords, "lblNotifyKeywords");
             this.lblNotifyKeywords.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblNotifyKeywords.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNotifyKeywords.Location = new System.Drawing.Point(6, 108);
             this.lblNotifyKeywords.Name = "lblNotifyKeywords";
-            this.lblNotifyKeywords.Size = new System.Drawing.Size(80, 13);
-            this.lblNotifyKeywords.TabIndex = 6;
-            this.lblNotifyKeywords.Text = "notify keywords";
             this.lblNotifyKeywords.MouseEnter += new System.EventHandler(this.lblNotifyKeywords_MouseEnter);
             // 
             // fileNotifySound
             // 
-            this.fileNotifySound.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.fileNotifySound, "fileNotifySound");
             this.fileNotifySound.BackColor = System.Drawing.SystemColors.Window;
-            this.fileNotifySound.Enabled = false;
-            this.fileNotifySound.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fileNotifySound.Location = new System.Drawing.Point(104, 46);
             this.fileNotifySound.Name = "fileNotifySound";
             this.fileNotifySound.SelectedFile = "";
-            this.fileNotifySound.Size = new System.Drawing.Size(736, 22);
-            this.fileNotifySound.TabIndex = 3;
             this.fileNotifySound.EnabledChanged += new System.EventHandler(this.fileNotifySound_EnabledChanged);
             // 
             // lblNotifyOption
             // 
-            this.lblNotifyOption.AutoSize = true;
+            resources.ApplyResources(this.lblNotifyOption, "lblNotifyOption");
             this.lblNotifyOption.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblNotifyOption.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNotifyOption.Location = new System.Drawing.Point(6, 22);
             this.lblNotifyOption.Name = "lblNotifyOption";
-            this.lblNotifyOption.Size = new System.Drawing.Size(67, 13);
-            this.lblNotifyOption.TabIndex = 0;
-            this.lblNotifyOption.Text = "how to notify";
             this.lblNotifyOption.MouseEnter += new System.EventHandler(this.lblNotifyOption_Enter);
             // 
             // cbNotify
             // 
-            this.cbNotify.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            resources.ApplyResources(this.cbNotify, "cbNotify");
             this.cbNotify.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbNotify.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbNotify.FormattingEnabled = true;
-            this.cbNotify.Location = new System.Drawing.Point(105, 19);
             this.cbNotify.Name = "cbNotify";
-            this.cbNotify.Size = new System.Drawing.Size(735, 21);
-            this.cbNotify.TabIndex = 1;
             this.cbNotify.SelectedValueChanged += new System.EventHandler(this.cbNotify_SelectedValueChanged);
             // 
-            // groupBox3
+            // gbProgramSettings
             // 
-            this.groupBox3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox3.Controls.Add(this.nudAutoStartDelay);
-            this.groupBox3.Controls.Add(this.lblAutostartDelay);
-            this.groupBox3.Controls.Add(this.tbMotdUsername);
-            this.groupBox3.Controls.Add(this.lblMotdUsername);
-            this.groupBox3.Controls.Add(this.cbIgnoreOwn);
-            this.groupBox3.Controls.Add(this.lblIgnoreOwn);
-            this.groupBox3.Controls.Add(this.cbIgnoreMotd);
-            this.groupBox3.Controls.Add(this.lblIgnoreMotd);
-            this.groupBox3.Controls.Add(this.nudFontSizeContent);
-            this.groupBox3.Controls.Add(this.label2);
-            this.groupBox3.Controls.Add(this.nudFontSizeTitle);
-            this.groupBox3.Controls.Add(this.label1);
-            this.groupBox3.Controls.Add(this.cbAutoStart);
-            this.groupBox3.Controls.Add(this.lblAutostart);
-            this.groupBox3.Controls.Add(this.cbUpdates);
-            this.groupBox3.Controls.Add(this.lblUpdateCheck);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(12, 272);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(846, 66);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "program settings";
+            this.gbProgramSettings.Controls.Add(this.cbLang);
+            this.gbProgramSettings.Controls.Add(this.lblLangSelect);
+            this.gbProgramSettings.Controls.Add(this.nudAutoStartDelay);
+            this.gbProgramSettings.Controls.Add(this.lblAutostartDelay);
+            this.gbProgramSettings.Controls.Add(this.nudFontSizeTitle);
+            this.gbProgramSettings.Controls.Add(this.label1);
+            this.gbProgramSettings.Controls.Add(this.cbAutoStart);
+            this.gbProgramSettings.Controls.Add(this.nudFontSizeContent);
+            this.gbProgramSettings.Controls.Add(this.lblAutostart);
+            this.gbProgramSettings.Controls.Add(this.label2);
+            this.gbProgramSettings.Controls.Add(this.cbUpdates);
+            this.gbProgramSettings.Controls.Add(this.lblUpdateCheck);
+            resources.ApplyResources(this.gbProgramSettings, "gbProgramSettings");
+            this.gbProgramSettings.Name = "gbProgramSettings";
+            this.gbProgramSettings.TabStop = false;
+            // 
+            // cbLang
+            // 
+            resources.ApplyResources(this.cbLang, "cbLang");
+            this.cbLang.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbLang.FormattingEnabled = true;
+            this.cbLang.Name = "cbLang";
+            // 
+            // lblLangSelect
+            // 
+            resources.ApplyResources(this.lblLangSelect, "lblLangSelect");
+            this.lblLangSelect.Name = "lblLangSelect";
             // 
             // nudAutoStartDelay
             // 
-            this.nudAutoStartDelay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudAutoStartDelay.Location = new System.Drawing.Point(261, 13);
+            resources.ApplyResources(this.nudAutoStartDelay, "nudAutoStartDelay");
             this.nudAutoStartDelay.Maximum = new decimal(new int[] {
             30,
             0,
             0,
             0});
             this.nudAutoStartDelay.Name = "nudAutoStartDelay";
-            this.nudAutoStartDelay.Size = new System.Drawing.Size(44, 20);
-            this.nudAutoStartDelay.TabIndex = 5;
             // 
             // lblAutostartDelay
             // 
-            this.lblAutostartDelay.AutoSize = true;
-            this.lblAutostartDelay.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutostartDelay.Location = new System.Drawing.Point(134, 19);
+            resources.ApplyResources(this.lblAutostartDelay, "lblAutostartDelay");
             this.lblAutostartDelay.Name = "lblAutostartDelay";
-            this.lblAutostartDelay.Size = new System.Drawing.Size(121, 13);
-            this.lblAutostartDelay.TabIndex = 4;
-            this.lblAutostartDelay.Text = "autostart delay (minutes)";
             this.lblAutostartDelay.MouseEnter += new System.EventHandler(this.LblAutostartDelay_MouseEnter);
-            // 
-            // tbMotdUsername
-            // 
-            this.tbMotdUsername.Location = new System.Drawing.Point(601, 36);
-            this.tbMotdUsername.Name = "tbMotdUsername";
-            this.tbMotdUsername.Size = new System.Drawing.Size(172, 20);
-            this.tbMotdUsername.TabIndex = 13;
-            // 
-            // lblMotdUsername
-            // 
-            this.lblMotdUsername.AutoSize = true;
-            this.lblMotdUsername.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblMotdUsername.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblMotdUsername.Location = new System.Drawing.Point(486, 40);
-            this.lblMotdUsername.Name = "lblMotdUsername";
-            this.lblMotdUsername.Size = new System.Drawing.Size(90, 13);
-            this.lblMotdUsername.TabIndex = 12;
-            this.lblMotdUsername.Text = "MOTD Username";
-            this.lblMotdUsername.MouseEnter += new System.EventHandler(this.motdUserName);
-            // 
-            // cbIgnoreOwn
-            // 
-            this.cbIgnoreOwn.AutoSize = true;
-            this.cbIgnoreOwn.Location = new System.Drawing.Point(758, 19);
-            this.cbIgnoreOwn.Name = "cbIgnoreOwn";
-            this.cbIgnoreOwn.Size = new System.Drawing.Size(15, 14);
-            this.cbIgnoreOwn.TabIndex = 15;
-            this.cbIgnoreOwn.UseVisualStyleBackColor = true;
-            // 
-            // lblIgnoreOwn
-            // 
-            this.lblIgnoreOwn.AutoSize = true;
-            this.lblIgnoreOwn.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblIgnoreOwn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIgnoreOwn.Location = new System.Drawing.Point(643, 19);
-            this.lblIgnoreOwn.Name = "lblIgnoreOwn";
-            this.lblIgnoreOwn.Size = new System.Drawing.Size(109, 13);
-            this.lblIgnoreOwn.TabIndex = 14;
-            this.lblIgnoreOwn.Text = "ignore own messages";
-            this.lblIgnoreOwn.MouseEnter += new System.EventHandler(this.ignoreOwnMessages);
-            // 
-            // cbIgnoreMotd
-            // 
-            this.cbIgnoreMotd.AutoSize = true;
-            this.cbIgnoreMotd.Location = new System.Drawing.Point(601, 19);
-            this.cbIgnoreMotd.Name = "cbIgnoreMotd";
-            this.cbIgnoreMotd.Size = new System.Drawing.Size(15, 14);
-            this.cbIgnoreMotd.TabIndex = 11;
-            this.cbIgnoreMotd.UseVisualStyleBackColor = true;
-            // 
-            // lblIgnoreMotd
-            // 
-            this.lblIgnoreMotd.AutoSize = true;
-            this.lblIgnoreMotd.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblIgnoreMotd.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIgnoreMotd.Location = new System.Drawing.Point(486, 19);
-            this.lblIgnoreMotd.Name = "lblIgnoreMotd";
-            this.lblIgnoreMotd.Size = new System.Drawing.Size(71, 13);
-            this.lblIgnoreMotd.TabIndex = 10;
-            this.lblIgnoreMotd.Text = "ignore MOTD";
-            this.lblIgnoreMotd.MouseEnter += new System.EventHandler(this.ignoreMotd_MouseEnter);
-            // 
-            // nudFontSizeContent
-            // 
-            this.nudFontSizeContent.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudFontSizeContent.Location = new System.Drawing.Point(423, 38);
-            this.nudFontSizeContent.Maximum = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.nudFontSizeContent.Minimum = new decimal(new int[] {
-            6,
-            0,
-            0,
-            0});
-            this.nudFontSizeContent.Name = "nudFontSizeContent";
-            this.nudFontSizeContent.Size = new System.Drawing.Size(44, 20);
-            this.nudFontSizeContent.TabIndex = 9;
-            this.nudFontSizeContent.Value = new decimal(new int[] {
-            8,
-            0,
-            0,
-            0});
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(322, 40);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(97, 13);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "font size (message)";
-            this.label2.MouseEnter += new System.EventHandler(this.fontSize_MouseEnter);
             // 
             // nudFontSizeTitle
             // 
-            this.nudFontSizeTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nudFontSizeTitle.Location = new System.Drawing.Point(423, 12);
+            resources.ApplyResources(this.nudFontSizeTitle, "nudFontSizeTitle");
             this.nudFontSizeTitle.Maximum = new decimal(new int[] {
             30,
             0,
@@ -527,8 +314,6 @@
             0,
             0});
             this.nudFontSizeTitle.Name = "nudFontSizeTitle";
-            this.nudFontSizeTitle.Size = new System.Drawing.Size(44, 20);
-            this.nudFontSizeTitle.TabIndex = 7;
             this.nudFontSizeTitle.Value = new decimal(new int[] {
             9,
             0,
@@ -537,157 +322,191 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(322, 19);
+            resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(71, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Text = "font size (title)";
             this.label1.MouseEnter += new System.EventHandler(this.fontSize_MouseEnter);
             // 
             // cbAutoStart
             // 
-            this.cbAutoStart.AutoSize = true;
-            this.cbAutoStart.Location = new System.Drawing.Point(104, 39);
+            resources.ApplyResources(this.cbAutoStart, "cbAutoStart");
             this.cbAutoStart.Name = "cbAutoStart";
-            this.cbAutoStart.Size = new System.Drawing.Size(15, 14);
-            this.cbAutoStart.TabIndex = 3;
             this.cbAutoStart.UseVisualStyleBackColor = true;
+            // 
+            // nudFontSizeContent
+            // 
+            resources.ApplyResources(this.nudFontSizeContent, "nudFontSizeContent");
+            this.nudFontSizeContent.Maximum = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.nudFontSizeContent.Minimum = new decimal(new int[] {
+            6,
+            0,
+            0,
+            0});
+            this.nudFontSizeContent.Name = "nudFontSizeContent";
+            this.nudFontSizeContent.Value = new decimal(new int[] {
+            8,
+            0,
+            0,
+            0});
             // 
             // lblAutostart
             // 
-            this.lblAutostart.AutoSize = true;
+            resources.ApplyResources(this.lblAutostart, "lblAutostart");
             this.lblAutostart.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblAutostart.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAutostart.Location = new System.Drawing.Point(6, 40);
             this.lblAutostart.Name = "lblAutostart";
-            this.lblAutostart.Size = new System.Drawing.Size(89, 13);
-            this.lblAutostart.TabIndex = 2;
-            this.lblAutostart.Text = "autostart program";
             this.lblAutostart.MouseEnter += new System.EventHandler(this.lblAutostart_MouseEnter);
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            this.label2.MouseEnter += new System.EventHandler(this.fontSize_MouseEnter);
             // 
             // cbUpdates
             // 
-            this.cbUpdates.AutoSize = true;
-            this.cbUpdates.Location = new System.Drawing.Point(104, 19);
+            resources.ApplyResources(this.cbUpdates, "cbUpdates");
             this.cbUpdates.Name = "cbUpdates";
-            this.cbUpdates.Size = new System.Drawing.Size(15, 14);
-            this.cbUpdates.TabIndex = 1;
             this.cbUpdates.UseVisualStyleBackColor = true;
             // 
             // lblUpdateCheck
             // 
-            this.lblUpdateCheck.AutoSize = true;
+            resources.ApplyResources(this.lblUpdateCheck, "lblUpdateCheck");
             this.lblUpdateCheck.Cursor = System.Windows.Forms.Cursors.Help;
-            this.lblUpdateCheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUpdateCheck.Location = new System.Drawing.Point(6, 19);
             this.lblUpdateCheck.Name = "lblUpdateCheck";
-            this.lblUpdateCheck.Size = new System.Drawing.Size(93, 13);
-            this.lblUpdateCheck.TabIndex = 0;
-            this.lblUpdateCheck.Text = "check for updates";
             this.lblUpdateCheck.MouseEnter += new System.EventHandler(this.lblUpdateCheck_MouseEnter);
             // 
-            // groupBox4
+            // tbMotdUsername
             // 
-            this.groupBox4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox4.Controls.Add(this.tbIgnoreChannels);
-            this.groupBox4.Controls.Add(this.tbIgnorePilots);
-            this.groupBox4.Controls.Add(this.lblIgnoreChannels);
-            this.groupBox4.Controls.Add(this.lblIgnorePilots);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox4.Location = new System.Drawing.Point(12, 344);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(846, 74);
-            this.groupBox4.TabIndex = 3;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Ignorelist";
+            resources.ApplyResources(this.tbMotdUsername, "tbMotdUsername");
+            this.tbMotdUsername.Name = "tbMotdUsername";
+            // 
+            // lblMotdUsername
+            // 
+            resources.ApplyResources(this.lblMotdUsername, "lblMotdUsername");
+            this.lblMotdUsername.Cursor = System.Windows.Forms.Cursors.Help;
+            this.lblMotdUsername.Name = "lblMotdUsername";
+            this.lblMotdUsername.MouseEnter += new System.EventHandler(this.motdUserName);
+            // 
+            // cbIgnoreOwn
+            // 
+            resources.ApplyResources(this.cbIgnoreOwn, "cbIgnoreOwn");
+            this.cbIgnoreOwn.Name = "cbIgnoreOwn";
+            this.cbIgnoreOwn.UseVisualStyleBackColor = true;
+            // 
+            // lblIgnoreOwn
+            // 
+            resources.ApplyResources(this.lblIgnoreOwn, "lblIgnoreOwn");
+            this.lblIgnoreOwn.Cursor = System.Windows.Forms.Cursors.Help;
+            this.lblIgnoreOwn.Name = "lblIgnoreOwn";
+            this.lblIgnoreOwn.MouseEnter += new System.EventHandler(this.ignoreOwnMessages);
+            // 
+            // cbIgnoreMotd
+            // 
+            resources.ApplyResources(this.cbIgnoreMotd, "cbIgnoreMotd");
+            this.cbIgnoreMotd.Name = "cbIgnoreMotd";
+            this.cbIgnoreMotd.UseVisualStyleBackColor = true;
+            // 
+            // lblIgnoreMotd
+            // 
+            resources.ApplyResources(this.lblIgnoreMotd, "lblIgnoreMotd");
+            this.lblIgnoreMotd.Cursor = System.Windows.Forms.Cursors.Help;
+            this.lblIgnoreMotd.Name = "lblIgnoreMotd";
+            this.lblIgnoreMotd.MouseEnter += new System.EventHandler(this.ignoreMotd_MouseEnter);
+            // 
+            // gbIgnorelist
+            // 
+            resources.ApplyResources(this.gbIgnorelist, "gbIgnorelist");
+            this.gbIgnorelist.Controls.Add(this.tbIgnoreChannels);
+            this.gbIgnorelist.Controls.Add(this.tbIgnorePilots);
+            this.gbIgnorelist.Controls.Add(this.lblIgnoreChannels);
+            this.gbIgnorelist.Controls.Add(this.lblIgnorePilots);
+            this.gbIgnorelist.Name = "gbIgnorelist";
+            this.gbIgnorelist.TabStop = false;
             // 
             // tbIgnoreChannels
             // 
-            this.tbIgnoreChannels.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbIgnoreChannels.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbIgnoreChannels.Location = new System.Drawing.Point(105, 42);
+            resources.ApplyResources(this.tbIgnoreChannels, "tbIgnoreChannels");
             this.tbIgnoreChannels.Name = "tbIgnoreChannels";
-            this.tbIgnoreChannels.Size = new System.Drawing.Size(735, 20);
-            this.tbIgnoreChannels.TabIndex = 3;
             // 
             // tbIgnorePilots
             // 
-            this.tbIgnorePilots.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tbIgnorePilots.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbIgnorePilots.Location = new System.Drawing.Point(105, 16);
+            resources.ApplyResources(this.tbIgnorePilots, "tbIgnorePilots");
             this.tbIgnorePilots.Name = "tbIgnorePilots";
-            this.tbIgnorePilots.Size = new System.Drawing.Size(735, 20);
-            this.tbIgnorePilots.TabIndex = 1;
             // 
             // lblIgnoreChannels
             // 
-            this.lblIgnoreChannels.AutoSize = true;
-            this.lblIgnoreChannels.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIgnoreChannels.Location = new System.Drawing.Point(6, 45);
+            resources.ApplyResources(this.lblIgnoreChannels, "lblIgnoreChannels");
             this.lblIgnoreChannels.Name = "lblIgnoreChannels";
-            this.lblIgnoreChannels.Size = new System.Drawing.Size(80, 13);
-            this.lblIgnoreChannels.TabIndex = 2;
-            this.lblIgnoreChannels.Text = "Channelnames:";
             this.lblIgnoreChannels.MouseEnter += new System.EventHandler(this.lblIgnoreChannels_MouseEnter);
             // 
             // lblIgnorePilots
             // 
-            this.lblIgnorePilots.AutoSize = true;
-            this.lblIgnorePilots.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIgnorePilots.Location = new System.Drawing.Point(6, 19);
+            resources.ApplyResources(this.lblIgnorePilots, "lblIgnorePilots");
             this.lblIgnorePilots.Name = "lblIgnorePilots";
-            this.lblIgnorePilots.Size = new System.Drawing.Size(61, 13);
-            this.lblIgnorePilots.TabIndex = 0;
-            this.lblIgnorePilots.Text = "Pilotnames:";
             this.lblIgnorePilots.MouseEnter += new System.EventHandler(this.lblIgnorePilots_MouseEnter);
+            // 
+            // gbWorkTweaks
+            // 
+            resources.ApplyResources(this.gbWorkTweaks, "gbWorkTweaks");
+            this.gbWorkTweaks.Controls.Add(this.tbMotdUsername);
+            this.gbWorkTweaks.Controls.Add(this.cbIgnoreMotd);
+            this.gbWorkTweaks.Controls.Add(this.lblIgnoreOwn);
+            this.gbWorkTweaks.Controls.Add(this.cbIgnoreOwn);
+            this.gbWorkTweaks.Controls.Add(this.lblMotdUsername);
+            this.gbWorkTweaks.Controls.Add(this.lblIgnoreMotd);
+            this.gbWorkTweaks.Name = "gbWorkTweaks";
+            this.gbWorkTweaks.TabStop = false;
             // 
             // Settings
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(870, 469);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.panel1);
+            resources.ApplyResources(this, "$this");
+            this.Controls.Add(this.btnTest);
+            this.Controls.Add(this.gbWorkTweaks);
+            this.Controls.Add(this.gbIgnorelist);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.gbProgramSettings);
+            this.Controls.Add(this.btnSave);
+            this.Controls.Add(this.gbNotification);
+            this.Controls.Add(this.gbPaths);
+            this.Controls.Add(this.pHint);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Settings";
-            this.Text = "Settings";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Settings_FormClosing);
+            this.Load += new System.EventHandler(this.Settings_Load);
+            this.pHint.ResumeLayout(false);
+            this.pHint.PerformLayout();
+            this.gbPaths.ResumeLayout(false);
+            this.gbPaths.PerformLayout();
+            this.gbNotification.ResumeLayout(false);
+            this.gbNotification.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.tbarVolume)).EndInit();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
+            this.gbProgramSettings.ResumeLayout(false);
+            this.gbProgramSettings.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nudAutoStartDelay)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.nudFontSizeContent)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudFontSizeTitle)).EndInit();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.nudFontSizeContent)).EndInit();
+            this.gbIgnorelist.ResumeLayout(false);
+            this.gbIgnorelist.PerformLayout();
+            this.gbWorkTweaks.ResumeLayout(false);
+            this.gbWorkTweaks.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pHint;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnSave;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox gbPaths;
         private System.Windows.Forms.Label lblEveChatLogPath;
         private System.Windows.Forms.Label lblLogPath;
         private System.Windows.Forms.CheckBox cbMoveLog;
@@ -696,7 +515,7 @@
         private HelperControls.FileChooser fileLog;
         private HelperControls.FolderChooser folderEveChatLogs;
         private System.Windows.Forms.TextBox tbHelp;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.GroupBox gbNotification;
         private System.Windows.Forms.Label lblNotifyOption;
         private System.Windows.Forms.ComboBox cbNotify;
         private System.Windows.Forms.Label lblSoundFile;
@@ -706,7 +525,7 @@
         private System.Windows.Forms.Label lblVolume;
         private System.Windows.Forms.TrackBar tbarVolume;
         private System.Windows.Forms.Button btnTest;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.GroupBox gbProgramSettings;
         private System.Windows.Forms.CheckBox cbUpdates;
         private System.Windows.Forms.Label lblUpdateCheck;
         private System.Windows.Forms.CheckBox cbAutoStart;
@@ -721,12 +540,15 @@
         private System.Windows.Forms.Label lblIgnoreOwn;
 		private System.Windows.Forms.TextBox tbMotdUsername;
 		private System.Windows.Forms.Label lblMotdUsername;
-		private System.Windows.Forms.GroupBox groupBox4;
+		private System.Windows.Forms.GroupBox gbIgnorelist;
 		private System.Windows.Forms.TextBox tbIgnoreChannels;
 		private System.Windows.Forms.TextBox tbIgnorePilots;
 		private System.Windows.Forms.Label lblIgnoreChannels;
 		private System.Windows.Forms.Label lblIgnorePilots;
         private System.Windows.Forms.NumericUpDown nudAutoStartDelay;
         private System.Windows.Forms.Label lblAutostartDelay;
+        private System.Windows.Forms.Label lblLangSelect;
+        private System.Windows.Forms.ComboBox cbLang;
+        private System.Windows.Forms.GroupBox gbWorkTweaks;
     }
 }

@@ -111,6 +111,7 @@
     <Compile Include="Settings.Designer.cs">
       <DependentUpon>Settings.cs</DependentUpon>
     </Compile>
+    <Compile Include="Settings1.cs" />
     <Compile Include="ShowAllNotifications.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +138,12 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.ru-RU.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Settings.rwk.resx">
       <DependentUpon>Settings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ShowAllNotifications.resx">
